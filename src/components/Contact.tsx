@@ -48,10 +48,10 @@ export default function Contact() {
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-1">メール</h4>
                   <a
-                    href="mailto:japan@newrevive.com"
+                    href="mailto:contact@newrevive.com"
                     className="text-green-primary hover:text-green-dark transition-colors font-medium"
                   >
-                    japan@newrevive.com
+                    contact@newrevive.com
                   </a>
                 </div>
               </div>

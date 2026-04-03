@@ -106,7 +106,7 @@ export default function RootLayout({
               },
               contactPoint: {
                 "@type": "ContactPoint",
-                email: "japan@newrevive.com",
+                email: "contact@newrevive.com",
                 contactType: "customer service",
                 availableLanguage: "Japanese",
               },
