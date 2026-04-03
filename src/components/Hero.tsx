@@ -27,8 +27,9 @@ export default function Hero() {
               <span className="text-green-100 text-sm font-medium">循環型エレクトロニクス経済をリードする</span>
             </div>
 
-            <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold text-white leading-tight mb-6">
-              リサイクル。{" "}
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
+              リサイクル。
+              <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-light to-emerald-300">
                 リバイブ。
               </span>
