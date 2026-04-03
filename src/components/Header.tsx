@@ -39,14 +39,6 @@ export default function Header() {
             >
               お問い合わせ
             </a>
-            <a
-              href="https://newrevive.com"
-              className="inline-flex items-center gap-1.5 px-3 py-2 text-sm font-medium text-gray-700 hover:text-green-primary border border-gray-200 rounded-full hover:border-green-primary/30 transition-colors"
-              title="Global Site"
-            >
-              <span className="text-base leading-none">{"\u{1F30D}"}</span>
-              <span>Global</span>
-            </a>
           </nav>
 
           {/* Mobile menu button */}
@@ -85,13 +77,6 @@ export default function Header() {
                 className="mx-3 mt-2 text-center px-5 py-2.5 text-sm font-semibold text-white bg-green-primary rounded-full hover:bg-green-dark transition-colors"
               >
                 お問い合わせ
-              </a>
-              <a
-                href="https://newrevive.com"
-                className="mx-3 mt-2 inline-flex items-center justify-center gap-1.5 px-3 py-2 text-sm font-medium text-gray-700 border border-gray-200 rounded-full hover:border-green-primary/30 transition-colors"
-              >
-                <span className="text-base leading-none">{"\u{1F30D}"}</span>
-                <span>グローバルサイト</span>
               </a>
             </div>
           </nav>
