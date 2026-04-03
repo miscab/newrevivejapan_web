@@ -9,7 +9,7 @@ export default function Footer() {
         </div>
         <div className="border-t border-gray-800 mt-8 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-sm text-gray-500">
-            &copy; {new Date().getFullYear()} New Revive Japan. All rights reserved.
+            &copy; {new Date().getFullYear()} New Revive Japan 株式会社. All rights reserved.
           </p>
           <a
             href="https://newrevive.com"
