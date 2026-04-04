@@ -57,11 +57,16 @@ export default function Contact() {
               </div>
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 bg-green-50 rounded-xl flex items-center justify-center shrink-0">
-                  <svg className="w-6 h-6 text-green-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" /></svg>
+                  <svg className="w-6 h-6 text-green-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-gray-900 mb-1">ウェブサイト</h4>
-                  <span className="text-gray-600">newrevivejapan.com</span>
+                  <h4 className="font-semibold text-gray-900 mb-1">電話番号</h4>
+                  <a
+                    href="tel:080-3310-0433"
+                    className="text-green-primary hover:text-green-dark transition-colors font-medium"
+                  >
+                    080-3310-0433
+                  </a>
                 </div>
               </div>
               <div className="flex items-start gap-4">
@@ -69,10 +74,24 @@ export default function Contact() {
                   <svg className="w-6 h-6 text-green-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-gray-900 mb-1">事業拠点</h4>
-                  <span className="text-gray-600">中国、インドネシア、日本、フィリピン、アメリカ</span>
+                  <h4 className="font-semibold text-gray-900 mb-1">所在地</h4>
+                  <span className="text-gray-600">東京都港区北青山一丁目 31 号</span>
                 </div>
               </div>
+            </div>
+
+            {/* Google Map */}
+            <div className="mt-8 rounded-2xl overflow-hidden border border-gray-200">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.169!2d139.7196!3d35.6726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c9a521fa4ab%3A0x!2z5YyX6Z2S5bGx77yR5LiB55uu!5e0!3m2!1sja!2sjp!4v1"
+                width="100%"
+                height="200"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="New Revive Japan 所在地"
+              />
             </div>
           </div>
 
