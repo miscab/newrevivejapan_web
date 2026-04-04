@@ -13,14 +13,14 @@ export default function Process() {
       step: "02",
       title: "検査・テスト",
       description:
-        "すべてのデバイスは、再製造センターで包括的な診断テスト、データ消去、品質評価を受けます。",
+        "すべてのデバイスは、リファービッシュセンターで包括的な診断テスト、データ消去、品質評価を受けます。",
       icon: (
         <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" /></svg>
       ),
     },
     {
       step: "03",
-      title: "再製造",
+      title: "リファービッシュ",
       description:
         "熟練した技術者が、各市場の厳格な品質基準を満たすよう、修理、構成のアップグレード、外観の復元を行います。",
       icon: (
@@ -50,7 +50,7 @@ export default function Process() {
             調達から市場まで
           </h2>
           <p className="text-lg text-gray-400">
-            エンドツーエンドの再製造プロセスにより、すべてのデバイスがお客様に届く前に
+            エンドツーエンドのリファービッシュプロセスにより、すべてのデバイスがお客様に届く前に
             最高の品質基準を満たすことを保証します。
           </p>
         </div>

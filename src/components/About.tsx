@@ -20,7 +20,7 @@ export default function About() {
             </p>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
               アメリカ、ヨーロッパ、イギリス、オーストラリア、日本、中国からデバイスを調達し、
-              最先端の再製造センターで高品質な市場対応製品へと生まれ変わらせます。
+              最先端のリファービッシュセンターで高品質な市場対応製品へと生まれ変わらせます。
             </p>
             <div className="flex flex-col sm:flex-row gap-6">
               <div className="flex items-start gap-3">

@@ -14,9 +14,9 @@ export default function GlobalPresence() {
 
   const operatingCountries = [
     { name: "中国", role: "調達・販売" },
-    { name: "インドネシア", role: "再製造・販売" },
+    { name: "インドネシア", role: "リファービッシュ・販売" },
     { name: "日本", role: "調達・販売" },
-    { name: "フィリピン", role: "再製造・販売" },
+    { name: "フィリピン", role: "リファービッシュ・販売" },
     { name: "アメリカ", role: "調達・販売" },
   ];
 
@@ -32,7 +32,7 @@ export default function GlobalPresence() {
             世界規模の<span className="gradient-text">ネットワーク</span>
           </h2>
           <p className="text-lg text-gray-600">
-            グローバルなサプライチェーンにより、調達市場と再製造拠点、
+            グローバルなサプライチェーンにより、調達市場とリファービッシュ拠点、
             そして世界中のお客様をつなぎます。
           </p>
         </div>
@@ -74,7 +74,7 @@ export default function GlobalPresence() {
               </div>
               <div>
                 <h3 className="text-xl font-bold text-gray-900">事業拠点</h3>
-                <p className="text-sm text-gray-500">再製造と販売を行う拠点</p>
+                <p className="text-sm text-gray-500">リファービッシュと販売を行う拠点</p>
               </div>
             </div>
             <div className="space-y-4">
@@ -104,7 +104,7 @@ export default function GlobalPresence() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
             <div className="px-6 py-4 bg-green-50 rounded-xl">
-              <p className="text-sm text-green-primary font-semibold">再製造センター</p>
+              <p className="text-sm text-green-primary font-semibold">リファービッシュセンター</p>
               <p className="text-xs text-gray-500 mt-1">テスト・修理・アップグレード</p>
             </div>
             <svg className="w-6 h-6 text-gray-300 rotate-90 sm:rotate-0 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
