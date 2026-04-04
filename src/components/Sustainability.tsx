@@ -47,8 +47,8 @@ export default function Sustainability() {
             <span className="text-green-light">よりグリーンな</span>未来のためのテクノロジー
           </h2>
           <p className="text-lg text-gray-200">
-            私たちの使命はビジネスを超えています。電子機器のライフサイクルを延長することで、
-            より持続可能な世界に積極的に貢献しています。
+            事業の枠を超え、電子機器のライフサイクルを延長することで、
+            より持続可能な社会の実現に貢献しています。
           </p>
         </div>
 

@@ -38,8 +38,8 @@ export default function Hero() {
             </h1>
 
             <p className="text-lg sm:text-xl text-gray-300 max-w-2xl mb-10 leading-relaxed">
-              私たちは世界中の中古電子機器をリサイクル、リファービッシュ、リマーケティングしています。
-              調達から再製造まで、電子廃棄物を削減し価値を創出する高品質な再生デバイスをお届けします。
+              世界中の中古電子機器のリサイクル・リファービッシュ・リマーケティングを行っています。
+              調達から再生までの一貫したプロセスを通じて、電子廃棄物の削減に貢献し、高品質で価値ある再生デバイスをお届けします。
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
