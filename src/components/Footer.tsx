@@ -24,7 +24,7 @@ export default function Footer() {
               className="inline-flex items-center gap-1.5 mt-4 text-sm text-gray-400 hover:text-green-light transition-colors"
             >
               <span>{"\u{1F30D}"}</span>
-              <span>New Revive Global</span>
+              <span>Visit New Revive Global</span>
             </a>
           </div>
 
