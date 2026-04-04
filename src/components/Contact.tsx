@@ -75,7 +75,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-1">所在地</h4>
-                  <span className="text-gray-600">東京都港区北青山一丁目 31 号</span>
+                  <span className="text-gray-600">東京都港区北青山１丁目３番１号 3F</span>
                 </div>
               </div>
             </div>
@@ -83,7 +83,7 @@ export default function Contact() {
             {/* Google Map */}
             <div className="mt-8 rounded-2xl overflow-hidden border border-gray-200">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.169!2d139.7196!3d35.6726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c9a521fa4ab%3A0x!2z5YyX6Z2S5bGx77yR5LiB55uu!5e0!3m2!1sja!2sjp!4v1"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.0!2d139.7196!3d35.6726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b9b98e7a2ed%3A0x4e0a7c0f0e5b8a0a!2z5p2x5Lqs6YO95riv5Yy65YyX6Z2S5bGxMeS4geebru-8k-eVqu-8keWPtw!5e0!3m2!1sja!2sjp!4v1"
                 width="100%"
                 height="200"
                 style={{ border: 0 }}
